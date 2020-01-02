@@ -1,66 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 
-*{ 
-    margin:0; 
-    padding:0;
-} 
-
-body{
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 255, 255);
+body {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: rgb(255, 255, 255);
 }
 
 h1 {
-    margin: 15px;
-    color: gray;
+	margin: 15px;
+	color: gray;
 }
 
-#inputDiv{
-    margin: 15px;
+#inputDiv {
+	margin: 15px;
 }
 
-#inputDiv input{
-    text-align: center;
-    border: 1px solid grey;
-    border-radius: 5px;
-    height: 20px;
-    width: 58px;
+#inputDiv input {
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 20px;
+	width: 58px;
 }
 
-#inputDiv select{
-    border: 1px solid gray;
-    border-radius: 5px;
-    height: 22px;
-    width: 60px;
+#inputDiv select {
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: 22px;
+	width: 60px;
 }
 
-#inputDiv button{
-    border: 1px solid grey;
-    border-radius: 5px;
-    height: 22px;
-    width: 60px;
+#inputDiv button {
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 22px;
+	width: 60px;
 }
 
-#main{
-    display: flex;
-    justify-content: center;
+#main {
+	display: flex;
+	justify-content: center;
 }
 
 .divC {
-    display: grid;
-    height: 800px;
-    width: 800px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    padding: 8px;
-    color: gray;
+	display: grid;
+	height: 800px;
+	width: 800px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	padding: 8px;
+	color: gray;
 }
 
-#welcomeText{
-    text-align: left;
-    justify-self: center;
-    align-self: center;
+#welcomeText {
+	text-align: left;
+	justify-self: center;
+	align-self: center;
 }
-
-
-
