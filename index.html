@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>CSS Grid Coding Challenge</title>
+		<title>CSS Grid Fun</title>
+		<link href="https://fonts.googleapis.com/css?family=Allerta Stencil" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<body>
-		<h1 id="pageTitle">CSS Grid Coding Challenge!</h1>
-
-		<div id="inputDiv">
-			<input type="number" title="Pick a number" />
-			<select>
-				<option>Red</option>
-				<option>Blue</option>
-				<option>Green</option>
-			</select>
-			<button>Run</button>
+		<h1 id="pageTitle">CSS Grid Fun</h1>
+		<div id="input-container">
+			<div class="input-item">
+				<input type="range" min="2" max="15" id="size-input" />
+				<label for="size-input">Pick a number</label>
+			</div>
+			<div class="input-item">
+				<input type="color" value="#4996be" id="color-input" />
+				<label for="color-input">Pick a color</label>
+			</div>
+			<div class="input-item">
+				<button id="button-run">Run</button>
+			</div>
 		</div>
 		<div id="main">
-			<div class="divC" id="container">
-				<div id="welcomeText">
+			<div id="picked-size"></div>
+			<div id="container">
+				<div id="welcome-text">
 					<h2>Hey there,</h2>
 					<br />
 					<h3>pick a number, pick a color, press "run" and have fun :)</h3>
